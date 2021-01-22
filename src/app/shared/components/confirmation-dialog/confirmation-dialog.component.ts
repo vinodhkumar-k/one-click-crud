@@ -11,7 +11,6 @@ export class ConfirmationDialogData {
   templateUrl: './confirmation-dialog.component.html',
   styleUrls: ['./confirmation-dialog.component.css']
 })
-
 export class ConfirmationDialogComponent {
 
   constructor(

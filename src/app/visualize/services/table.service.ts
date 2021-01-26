@@ -34,7 +34,6 @@ export class TableService {
   updateTableRow(obj) {
     return this.httpClient.put(this.webApiBaseURL + '/' + obj.table + '/' + obj.id, obj.payload);
   }
-  
   deleteTableRow(obj) {
     return this.httpClient.delete(this.webApiBaseURL + '/' + obj.table + '/' + obj.id);
   }

@@ -51,7 +51,6 @@ export class IconRendererComponent implements OnInit {
     this.data = params.data;
     this.cellRenderParam = params.dataValue;
   }
-
   ngOnInit() {
   }
 
